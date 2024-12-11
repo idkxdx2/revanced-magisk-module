@@ -1,6 +1,6 @@
 enable-magisk-update = true          # set this to false if you do not want to receive updates for the module in magisk app
 parallel-jobs = 1                    # amount of cores to use for parallel patching, if not set $(nproc) is used
-compression-level = 9                # module zip compression level
+compression-level = 4                # module zip compression level
 
 # add 'enabled = false' for not patching a specific app or remove it from the config
 # see https://github.com/j-hc/revanced-magisk-module/blob/main/CONFIG.md for more detailed explanations
