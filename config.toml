@@ -1,6 +1,6 @@
 enable-magisk-update = true          # set this to false if you do not want to receive updates for the module in magisk app
 parallel-jobs = 1                    # amount of cores to use for parallel patching, if not set $(nproc) is used
-compression-level = 4                # module zip compression level
+compression-level = 3                # module zip compression level
 
 # add 'enabled = false' for not patching a specific app or remove it from the config
 # see https://github.com/j-hc/revanced-magisk-module/blob/main/CONFIG.md for more detailed explanations
@@ -10,7 +10,7 @@ compression-level = 4                # module zip compression level
 # Global Settings
 
 patches-version = "dev"
-#cli-version = "latest"
+cli-version = "dev"
 
 # App Specific Settings
 
@@ -47,8 +47,8 @@ cli-source = "inotia00/revanced-cli"
 rv-brand = "ReVanced Extended"
 build-mode = "both"
 excluded-patches = "'Theme'"
-included-patches = "'MaterialYou''Change header'"
-patcher-args = "-Oheader=UToob"
+included-patches = "'MaterialYou'"
+#patcher-args = "-Oheader=UToob"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
 version = "auto"
 
