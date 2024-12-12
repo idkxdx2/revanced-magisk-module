@@ -15,7 +15,7 @@ cli-version = "dev"
 # App Specific Settings
 
 [Reddit-Extended]
-enabled = true
+enabled = false
 apkmirror-dlurl = "https://apkmirror.com/apk/redditinc/reddit/"
 build-mode = "both"
 patches-source = "inotia00/revanced-patches"
@@ -29,12 +29,12 @@ version = "auto"
 app-name = "YouTube"
 enabled = false
 patches-source = "ReVanced/revanced-patches"
-integrations-source = "ReVanced/revanced-integrations"
+#integrations-source = "ReVanced/revanced-integrations"
 cli-source = "j-hc/revanced-cli"
 rv-brand = "ReVanced"
 build-mode = "both"
-excluded-patches = "'Theme'"
-included-patches = "'MaterialYou' 'Return YouTube Username' 'Enable debug logging'"
+excluded-patches = "'Theme' 'Enable debug logging'"
+included-patches = "'MaterialYou' 'Return YouTube Username'"
 apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"                                  
 version = "auto"
 
@@ -46,8 +46,8 @@ patches-source = "inotia00/revanced-patches"
 cli-source = "inotia00/revanced-cli"
 rv-brand = "ReVanced Extended"
 build-mode = "both"
-excluded-patches = "'Theme'"
-included-patches = "'MaterialYou' 'Return YouTube Username' 'Enable debug logging'"
+excluded-patches = "'Theme' 'Enable debug logging'"
+included-patches = "'MaterialYou' 'Return YouTube Username'"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
 version = "auto"
 
