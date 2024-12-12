@@ -15,11 +15,11 @@ cli-version = "dev"
 # App Specific Settings
 
 [Reddit-Extended]
-enabled = false
+enabled = true
 apkmirror-dlurl = "https://apkmirror.com/apk/redditinc/reddit/"
 build-mode = "both"
 patches-source = "inotia00/revanced-patches"
-integrations-source = "inotia00/revanced-integrations"
+#integrations-source = "inotia00/revanced-integrations"
 cli-source = "inotia00/revanced-cli"
 rv-brand = "ReVanced Extended"
 included-patches = ""
