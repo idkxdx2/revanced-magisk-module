@@ -9,8 +9,8 @@ compression-level = 9                # module zip compression level
 
 # Global Settings
 
-patches-version = "dev"
-cli-version = "dev"
+patches-version = "latest"
+cli-version = "latest"
 
 # App Specific Settings
 
