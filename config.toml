@@ -9,8 +9,8 @@ compression-level = 9                # module zip compression level
 
 # Global Settings
 
-patches-version = "latest"
-cli-version = "latest"
+patches-version = "dev"
+cli-version = "dev"
 
 # App Specific Settings
 
@@ -19,7 +19,7 @@ enabled = true
 apkmirror-dlurl = "https://apkmirror.com/apk/redditinc/reddit/"
 build-mode = "both"
 patches-source = "inotia00/revanced-patches"
-#integrations-source = "inotia00/revanced-integrations"
+integrations-source = "inotia00/revanced-integrations"
 cli-source = "inotia00/revanced-cli"
 rv-brand = "ReVanced Extended"
 included-patches = ""
@@ -29,7 +29,7 @@ version = "auto"
 app-name = "YouTube"
 enabled = true
 patches-source = "ReVanced/revanced-patches"
-#integrations-source = "ReVanced/revanced-integrations"
+integrations-source = "ReVanced/revanced-integrations"
 cli-source = "j-hc/revanced-cli"
 rv-brand = "ReVanced"
 build-mode = "both"
@@ -42,7 +42,7 @@ version = "auto"
 app-name = "YouTube"
 enabled = true
 patches-source = "inotia00/revanced-patches"
-#integrations-source = "inotia00/revanced-integrations"
+integrations-source = "inotia00/revanced-integrations"
 cli-source = "inotia00/revanced-cli"
 rv-brand = "ReVanced Extended"
 build-mode = "both"
